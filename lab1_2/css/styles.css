@@ -1,0 +1,37 @@
+h1 {
+   color:floralwhite;
+}
+
+
+
+body {
+   background-color: lightcoral;
+   background-image:url("https://img.freepik.com/free-vector/flower-background-desktop-wallpaper-cute-vector_53876-136877.jpg;")
+   background-size: cover;
+}
+
+form label {
+   color:white;
+   font-family:sans-serif;
+   padding:20px;
+}
+
+
+form legend {
+   background-color: lightblue;
+   font-family:cursive;
+   color:darkgoldenrod;
+}
+
+button {
+   border: 6px;
+   font-family:sans-serif;
+   color:blue;
+}
+
+
+footer {
+   color:blue;
+   font-family:monospace;
+   text-align: center;
+}
