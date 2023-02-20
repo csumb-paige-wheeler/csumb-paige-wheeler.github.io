@@ -23,13 +23,24 @@ form legend {
    color:darkgoldenrod;
 }
 
+h4 {
+   font-size: 6px;
+   color: white;
+   font-family: sans-serif;
+
+}
+
 button {
    border: 6px;
    font-family:sans-serif;
    color:blue;
 }
 
-
+h6 {
+   font-family: san;
+   color:white;
+   font-size: 4px;
+}
 footer {
    color:blue;
    font-family:monospace;
