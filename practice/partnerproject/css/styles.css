@@ -1,0 +1,39 @@
+body {
+
+	background-color: darkgoldenrod;
+	width: 80%;
+}
+
+h1 {
+	color:white;
+	font-family: fantasy;
+	background-color:darkblue;
+	text-align: center;
+	padding:20px;
+	margin: 0 auto; /*centers block element like h1 or div */
+	font-size: 10vw;
+	align-content: center;
+}
+
+h2{
+	color:yellow;
+	font-family: monospace;
+	background-color:blue;
+	text-align: right;
+	margin: 0 auto; /*centers block element like h1 or div */
+	font-size: 2vw;
+
+}
+
+img {
+	align-content: center;
+	border-radius: 50px;
+}
+
+footer {
+	font-family: cursive;
+	color:yellow;
+	background-color: darkblue;
+	text-align: center;
+	font-size: 2vw;
+}
