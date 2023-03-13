@@ -32,8 +32,12 @@
         }
         @media (max-width: 768px) {
             h1 { 
-        color : orange; 
+        color : black; 
         display : inline;
+        background-color: lightyellow;
+        background-image: url('monte.jpg');
+
+
         }
 
 
