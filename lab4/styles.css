@@ -29,16 +29,25 @@
             padding: 20px 0;
             margin: 0 auto;
             border-radius: 13%;
+
         }
+
+        
         @media (max-width: 768px) {
             h1 { 
         color : black; 
         display : inline;
         background-color: lightyellow;
-        background-image: url('monte.jpg');
-
-
         }
+
+            img{
+
+            }
+            h2 {
+         color :white; 
+         background-color: lightpink;
+         display : inline;
+            }
 
 
         }
@@ -46,9 +55,14 @@
 
         @media (max-width: 480px) {
             h1 { 
-         color : orange; 
+         color :white; 
+         background-color: lightpink;
          display : inline;
         }
-
+            h2 {
+        color : black; 
+        display : inline;
+        background-color: lightyellow;
+            }
 
         }
