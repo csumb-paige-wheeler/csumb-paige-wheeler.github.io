@@ -1,68 +1,98 @@
+h1 {
+    font-size: 6vw;
+    color: white;
+    background-color: navy;
+}
 
-        h1 {
-            font-size: 6vw;
-            color: white;
-           background-color: navy;
-        }
+h2 {
+    font-size: 2vw;
+    text-align: right;
+    color: yellow;
+    background-color: skyblue;
+    font-family: sans-serif;
+}
 
-        h2 {
-            font-size: 2vw;
-            text-align: right;
-            color: yellow;
-            background-color:skyblue;
-            font-family: sans-serif;
-        }
-        h1, h2 {
-            margin: 0;
-        }
+h1, h2 {
+    margin: 0;
+}
 
-        main {
-            width: 80%;
-            text-align: center;
-            border-bottom: 9px solid blue;
-            background-color: sandybrown;
-        }
+main {
+    width: 80%;
+    text-align: center;
+    border-bottom: 9px solid blue;
+    background-color: sandybrown;
+}
 
-        img {
-            max-width: 70%;
-            height: auto;
-            padding: 20px 0;
-            margin: 0 auto;
-            border-radius: 13%;
+img:hover{
+    border: 5px solid hotpink;
+    bord-radius: 3px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 
-        }
+}
+img {
+    max-width: 70%;
+    height: auto;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-radius: 13%;
+}
 
-        
-        @media (max-width: 768px) {
-            h1 { 
-        color : black; 
-        display : inline;
+/* Tablet styles */
+@media (max-width: 768px) {
+    h1 { 
+        color: black; 
+        display: inline;
         background-color: lightyellow;
-        }
+    }
 
-            img{
+    h2 {
+        color: white; 
+        background-color: lightpink;
+        display: inline;
+    }
+     main {
+        background-color: lightslategray;
+        width: 80%;
+        text-align: center;
+        border-bottom: 9px honeydew;
 
-            }
-            h2 {
-         color :white; 
-         background-color: lightpink;
-         display : inline;
-            }
+    desktop {
+        display: block;
+    }
 
+    mobile {
+        display: none;
+    }
+}
 
-        }
+/* Mobile styles */
+@media (max-width: 480px) {
+    h1 { 
+        color: white; 
+        background-color: lightpink;
+        display: inline;
+    }
 
-
-        @media (max-width: 480px) {
-            h1 { 
-         color :white; 
-         background-color: lightpink;
-         display : inline;
-        }
-            h2 {
-        color : black; 
-        display : inline;
+    main {
+        background-color: darkorchid;
+        width: 80%;
+        text-align: center;
+        border-bottom: 9px honeydew;
+    }
+    h2 {
+        color: black; 
+        display: inline;
         background-color: lightyellow;
-            }
+    }
 
-        }
+    img.desktop {
+        display: none;
+    }
+
+    img.mobile {
+        display: block;
+    }
+}
